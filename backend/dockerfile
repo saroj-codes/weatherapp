@@ -1,0 +1,11 @@
+FROM node:20-alpine
+
+WORKDIR /docker-express
+
+COPY . .
+
+RUN yarn install
+
+EXPOSE 8080
+
+CMD ["node","dist/server.js"]
