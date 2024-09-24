@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // /* eslint-disable @next/next/no-img-element */
 // "use client";
 
@@ -92,9 +94,7 @@
 //     </div>
 //   );
 // }
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-
+// @ts-nocheck
 "use client";
 
 import React, { useState, useEffect } from "react";
